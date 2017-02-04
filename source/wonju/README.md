@@ -1,4 +1,53 @@
-# Jumping on the Cloud
+# Flatland Space Stations - 2017/02/05
+
+Original link on [Hackerrank](https://www.hackerrank.com/challenges/flatland-space-stations)
+
+
+평지는 n 개의 도시가 있고 그 중 m 개에는 우주 정거장이 있습니다. 각 도시 c<sub>i</sub>는 0에서 n-1까지의 고유 색인으로 번호가 매겨져 있으며 각 도시 ci는 1km 길이의 양방향 도로로 도시 c<sub>i+1</sub>에 연결됩니다.
+
+예를 들어, n = 5이고 도시 c<sub>0</sub> 및 c<sub>4</sub>에 우주 정거장이있는 경우 Flatland는 다음과 같습니다.
+
+**0** - 1 - 2 - 3 - **4**
+
+각 도시에 대해 가장 가까운 우주 정거장까지의 거리를 결정하 고이 거리의 최대 값을 인쇄하십시오.
+
+
+### Input Format
+첫 번째 행은 두 개의 공백으로 구분 된 정수로 구성됩니다.
+두 번째 행에는 우주 정거장이있는 각 도시의 각 색인을 설명하는 공백으로 구분 된 정수가 들어 있습니다. 이 값들은 순서가없고 고유합니다.
+
+### Constraints(제약 조건)
+최소한 우주 정거장을 갖춘 도시가있을 것이며 도시에는 하나 이상의 도시가 없다는 것을 보장합니다.
+
+### Output Format
+평지 도시의 우주인이 가장 가까운 우주 정거장에 도착하기 위해 여행해야하는 최대 거리를 나타내는 정수를 인쇄하십시오.
+
+#### Sample Input 0
+```
+5 2
+0 4
+```
+
+#### Sample Output 0
+```
+2
+```
+
+
+#### Sample Input 1
+```
+6 6
+0 1 2 4 3 5
+```
+
+#### Sample Output 1
+```
+0
+```
+<br/>
+
+
+# Jumping on the Cloud - 2017/01/22
 
 Original link on [Hackerrank](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited)
 
