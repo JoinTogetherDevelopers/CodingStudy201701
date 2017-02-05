@@ -14,7 +14,7 @@ public class Solution {
         }
 
         // get stations as ordered
-        SortedSet ss = new TreeSet();
+        SortedSet<Integer> ss = new TreeSet<>();
         for (int i = 0; i < m; ++i) {
             ss.add(in.nextInt());
         }
@@ -27,7 +27,7 @@ public class Solution {
 
         for (int i = 1; i < m; ++i) {
             currSs = (int)ss_it.next();
-            currDist = (int)Math.ceil((currSs - prevSs) / 2);
+            currDist = (int)Math.floor((currSs - prevSs) / 2.0);
 
             if (currDist > max) {
                 max = currDist;
@@ -36,8 +36,8 @@ public class Solution {
             prevSs = currSs;
         }
 
-        if (m-1 - currSs > max) {
-            max = m-1 - currSs;
+        if (n-1 - currSs > max) {
+            max = n-1 - currSs;
         }
 
         System.out.println(max);
