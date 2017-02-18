@@ -1,3 +1,40 @@
+# Luck Balance - 2017/02/19
+
+Original link on [Hackerrank](https://www.hackerrank.com/challenges/luck-balance)
+
+
+Lena는 N개의 예비 대회가 선행 된 중요한 코딩 대회을 준비하고 있습니다. 그녀는 "행운을 비는 것"을 믿고 자신의 이론을 확인하기를 원합니다. 각 경연은 L<sub>i</sub>와 T<sub>i</sub>의 두 정수로 설명됩니다.
+
+* L<sub>i</sub>는 대회 우승으로 얻을 수 있는 행운의 양입니다. Lena가 대회에서 우승하면 L<sub>i</sub>의 Luck Balance가 감소합니다. 그녀가 대회에서 지면, 그녀의 Luck Balance는 L<sub>i</sub>에 의해 증가 합니다.
+* T<sub>i</sub>는 대회의 중요도 등급을 나타냅니다. 대회가 중요하면 1과 같고 중요하지 않은 경우 0과 같습니다.
+만약 Lena가 K 이상의 중요한 대회를 지지 않는다면, 모든 예비 대회에서 경쟁 한 후 그녀가 가질 수 있는 최대 운이 얼마입니까? 이 값은 음수 일 수 있습니다.
+
+
+### Input Format
+첫 번째 줄에는 공백으로 구분 된 두 개의 정수 N (예비 경연 횟수)과 K (Lena가 상실 할 수있는 중요한 대회 횟수)가 각각 포함됩니다.
+N 개의 후속 행의 각 줄 i에는 공백으로 구분 된 두 개의 정수 L<sub>i</sub> (대회의 행운 균형)와 T<sub>i</sub> (대회의 중요도 평점)가 각각 포함됩니다.
+
+### Output Format
+레나가 모든 대회 후에 가질 수있는 최대 행운을 나타내는 단일 정수를 출력하십시오.
+
+#### Sample Input 0
+```
+6 3
+5 1
+2 1
+1 1
+8 1
+10 0
+5 0
+```
+
+#### Sample Output 0
+```
+29
+```
+<br/>
+
+
 # Flatland Space Stations - 2017/02/05
 
 Original link on [Hackerrank](https://www.hackerrank.com/challenges/flatland-space-stations)
